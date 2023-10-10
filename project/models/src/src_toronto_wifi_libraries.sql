@@ -1,5 +1,5 @@
 WITH city_of_toronto_free_public_wifi AS (
-  SELECT * FROM data-eng-training-001.test_landing_zone.city_of_toronto_free_public_wifi
+  SELECT * FROM {{ source('data-eng-training-001', 'toronto_wifi_library') }}
 )
 SELECT 
   _id,

@@ -1,0 +1,13 @@
+training:
+  target: dev  
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: data-eng-training-001
+      dataset: test_processed_zone
+      location: us-central1
+      threads: 4
+      timeout_seconds: 300
+      priority: interactive
+      retries: 1

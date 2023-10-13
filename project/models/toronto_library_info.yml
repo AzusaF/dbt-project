@@ -5,4 +5,4 @@ sources:
     schema: test_landing_zone
     tables:
       - name: toronto_library_info
-        identifier: citiy_of_toronto_library_info
+        identifier: city_of_toronto_library_info

@@ -1,4 +1,4 @@
-WITH citiy_of_toronto_library_info AS (
+WITH city_of_toronto_library_info AS (
   SELECT * FROM {{ source('data-eng-training-001', 'toronto_library_info') }}
 )
 SELECT 
@@ -30,4 +30,4 @@ SELECT
    wardname AS ward_name,
    presentsiteyear AS present_site_year
 FROM
-  citiy_of_toronto_library_info
+  city_of_toronto_library_info

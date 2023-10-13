@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: data-eng-training-001
+    schema: test_landing_zone
+    tables:
+      - name: toronto_library_visitors
+        identifier: city_of_toronto_library_visitors

@@ -18,6 +18,6 @@ SELECT
    r.branch_code,
    i.branch_name,
    r.registrations,
-   AVG(registrations) OVER() AS avg
+   AVG(r.registrations) OVER() AS avg
 FROM r 
 LEFT JOIN i ON (i.branch_code = r.branch_code)

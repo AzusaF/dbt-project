@@ -6,3 +6,7 @@ sources:
     tables:
       - name: toronto_library_registrations
         identifier: city_of_toronto_library_registrations
+        columns:
+         - name: registrations
+           tests:
+             - positive_value

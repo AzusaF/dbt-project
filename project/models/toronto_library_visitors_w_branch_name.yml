@@ -2,10 +2,9 @@ version: 2
 
 sources:
   - name: data-eng-training-001
-    schema: test_landing_zone
+    schema: test_processed_zone
     tables:
-      - name: toronto_library_visitors
-        identifier: city_of_toronto_library_visitors
+      - name: fct_toronto_library_visitors_w_branch_name
         columns:
          - name: visits
            tests:

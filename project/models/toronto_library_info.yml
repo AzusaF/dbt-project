@@ -6,3 +6,8 @@ sources:
     tables:
       - name: toronto_library_info
         identifier: city_of_toronto_library_info
+        columns:
+         - name: _id
+           tests:
+            - unique
+            - not_null

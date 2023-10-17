@@ -6,3 +6,8 @@ sources:
     tables:
       - name: toronto_wifi_library
         identifier: city_of_toronto_free_public_wifi
+        columns:
+         - name: _id
+           tests:
+            - unique
+            - not_null

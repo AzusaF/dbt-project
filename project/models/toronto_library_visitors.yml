@@ -7,6 +7,10 @@ sources:
       - name: toronto_library_visitors
         identifier: city_of_toronto_library_visitors
         columns:
+         - name: _id
+           tests:
+            - unique
+            - not_null
          - name: visits
            tests:
              - positive_value

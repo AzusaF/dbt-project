@@ -6,6 +6,10 @@ sources:
     tables:
       - name: fct_toronto_library_visitors_w_branch_name
         columns:
+         - name: _id
+           tests:
+            - unique
+            - not_null
          - name: visits
            tests:
              - positive_value

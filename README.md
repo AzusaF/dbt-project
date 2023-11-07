@@ -1,5 +1,5 @@
 # dbt-project
-DBT Project using GCloud and Big Query
+DBT Project using GCloud and BigQuery
 
 
 
